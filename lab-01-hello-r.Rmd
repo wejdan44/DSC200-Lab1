@@ -23,3 +23,4 @@ answer for task 3
 add code and narrative as needed . note that R chunks are labeledwith ,plot-star 
 
 answer for task 4
+add code and narrative as needed . note two R chunks are given but they are not labeled
