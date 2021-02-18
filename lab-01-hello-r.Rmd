@@ -20,6 +20,9 @@ library(datasauRus)
 
 ### Lab Exercise
 answer for task 3
+```{r 
+```
+
 (Add code and narrative as needed. Note that the R chunks are labeled with plot-star and cor-star to provide spaces to place the code for plotting and calculating the correlation coefficient. To finish, clean up the narrative by removing these instructions.) Blah blah blah... 
 
 answer for task 4
