@@ -21,13 +21,16 @@ library(datasauRus)
 ### Lab Exercise
 answer for task 3
 
-``` (Add code and narrative as needed. Note that the R chunks are labeled with 'plot-star' and 'cor-star' to provide spaces to place the code for plotting and calculating the correlation coefficient. To finish, clean up the narrative by removing these instructions.) 
+``` (Add code and narrative as needed. Note that the R chunks are labeled with 'plot-star' and 'cor-star' to provide spaces to place the code for plotting and calculating the correlation coefficient. To finish, clean up the narrative by removing these instructions.)
 
-```
-
-
-
-
+``
 answer for task 4
-```{rcircle_data - datasaurus_dozen filter(dataset -- "circle") sgplot (data - circle_data, mapping - aes (x - x, y - y)) + geom_point () (Correlation Coefficient - -e.0645 ) in dino ( the graph like dinosaur) (correlaion coefficien -0.0683 ) in circle the graph 1ike circle D
+```{r load-packages, message=FALSE}
+circle_data <- datasaurus_dozen %>% 
+  filter(dataset == "circle")
+ggplot (data = circle_data, mapping = aes (x = x, y = y)) + geom_point () (Correlation Coefficient = -0.0645 ) in dino 
+( the graph like dinosaur)
+(correlaion coefficien -0.0683 ) in circle
+the graph like circle )
 ```
+
